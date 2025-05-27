@@ -1,0 +1,313 @@
+body{
+    font-family:'Inter', sans-serif;
+    background: #FFF;
+    margin: 0;
+    padding: 0;
+}
+/* Menú */
+nav{
+    background-color: #A3A656;
+    color: #000;
+    height: 70px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 70px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;    
+}
+nav ul li:hover{
+    background-color: #FFFF00;
+}
+
+nav .derecha{
+    display: flex;
+    align-items: flex-end center;
+    margin-left: auto;
+}
+.miniatura{
+    font-weight: 400;
+    font-size: 14px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+nav .user img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+nav .user span{
+    margin-right: 45px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+nav .language span{
+    margin-right: 10px;
+}
+nav .flecha{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+/* Contenido */
+.fondo img{
+    width: 100vw;
+}
+.titulo h1{
+    font-family: 'Romanesco', cursive;
+    color: #000;
+    font-size: 96px;
+    font-weight: 400;
+    position: absolute;
+    top: 20%;
+    left: 13.5%;
+}
+.titulo p{
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    top: 42%;
+    left: 13%;
+    list-style: inline;
+}
+
+/* Reserva */
+.reserva{
+    background: #F2F6F6;
+    height: 100px;
+    width: 100vw;
+    margin-top: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reserva label{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.rc label{
+    margin-right: 25px;
+}
+.rc input{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.cp label{
+    margin-left: 35px;
+    margin-right: 10px;
+}
+.cp input{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+/* Masajes */
+.tipos .masajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 134px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.masaje{
+    background: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px 15px 0px 0px;
+    width: 350px;
+}
+.masaje .nombre h2{
+    background: #A3A656;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    height: 60px;
+    border-radius: 15px 15px 0px 0px;
+}
+.masaje .precio{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    padding-left: 15px;
+}
+.pb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.masaje .boton-reserva{
+    background: #A3A656;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 35px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.masaje .boton-reserva:hover{
+    background: #384001;
+}
+.boton-reserva a{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+/* Planes */
+.tipo-plan{
+    background: #F2F6F6;
+    height: 770px;
+    width: 100vw;
+}
+.tipo-plan .descripcion-plan h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.tipo-plan .planes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.plan .img-plan{
+    background:#FFF;
+    width: 233px;
+    height: 233px;
+    padding: 11px;
+    border-radius: 50%;
+    border:#384001 solid 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan .nombre-plan{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+.plan .boton-condiciones a{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.plan .boton-condiciones{
+    background: #A3A656;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 35px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.plan .boton-condiciones:hover{
+    background: #384001;
+}
+.plan .beneficios{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+.plan .beneficios ul li{
+    padding: 6px 0px 0px;
+}
+
+/* Footer */
+.footer{
+    background: #384001;
+    height: 97px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.footer ul{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 70px;
+}
+.footer ul a{
+    text-decoration: none;
+    color: #A3A656;
+}
+.footer ul li{
+    display: inline;
+    padding-right: 80px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;    
+}
+.footer .redes{
+    display: flex;
+    align-items: flex-end center;
+    margin-left: auto;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.footer .redes span{
+    color: #A3A656;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.footer .redes img{
+    padding-right: 35px;
+}

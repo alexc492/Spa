@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="styleSpa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Menú -->
+     <header>
+        <nav>
+            <ul>
+                <li><a href="#promociones">PROMOCIONES</a></li>
+                <li><a href="#fotos">FOTOS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#mapa">MAPa</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+            <div class="derecha">
+                <div class="user">
+                    <img src="images/user.png" alt="avatar">
+                    <span class="miniatura">Mi cuenta</span>
+                </div>
+                <div class="language">
+                    <span class="miniatura">ES</span>
+                    <img src="images/flag.png" alt="bandera">
+                </div>
+                <div class="flecha">
+                    <img src="images/arrow.png" alt="flecha">
+                </div>
+            </div>
+        </nav>
+     </header>
+    <!-- Contenido -->
+     <div class="fondo">
+        <img src="images/main.png" alt="fondo">
+     </div>
+     <div class="titulo">
+        <h1>SPA - Todos</h1>
+        <p>Regálate un momento de paz y <br> consiente a tu piel en el mejor lugar</p>
+     </div>
+     <!-- Reserva -->
+      <div class="reserva">
+        <div class="rc">
+            <label for="reserva">Reserva tu cita:</label>
+            <input type="text" id="cita" name="cita">
+        </div>
+        <div class="cp">
+            <label for="codigo">Código promocional:</label>
+            <input type="text" placeholder="CÓDIGO" id="promocional" name="promocional">
+        </div>
+      </div>
+     <!-- Masajes -->
+      <div class="tipos">
+        <div class="masajes">
+            <div class="masaje">
+                <div class="nombre">
+                    <h2>Masaje de pies</h2>
+                </div>
+                <div class="img-masaje">
+                    <img src="images/pies.png" alt="Masaje de pies">
+                </div>
+                <div class="descripcion">
+                    <p>Esta es una descripción de la opción en cuestión...</p>
+                </div>
+                <div class="pb">
+                    <div class="precio">$65</div>
+                    <!-- Botón de reserva -->
+                    <div class="boton-reserva">
+                        <a href="#reserva">Reservar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="masaje">
+                <div class="nombre">
+                    <h2>Masaje relajante</h2>
+                </div>
+                <div class="img-masaje">
+                    <img src="images/relajante.png" alt="Masaje relajante">
+                </div>
+                <div class="descripcion">
+                    <p>Esta es una descripción de la opción en cuestión...</p>
+                </div>
+                <div class="pb">
+                    <div class="precio">$60</div>
+                    <!-- Botón de reserva -->
+                    <div class="boton-reserva">
+                        <a href="#reserva">Reservar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="masaje">
+                <div class="nombre">
+                    <h2>Masaje con bambú</h2>
+                </div>
+                <div class="img-masaje">
+                    <img src="images/bambu.png" alt="Masaje con bambú">
+                </div>
+                <div class="descripcion">
+                    <p>Esta es una descripción de la opción en cuestión...</p>
+                </div>
+                <div class="pb">
+                    <div class="precio">$58</div>
+                    <!-- Botón de reserva -->
+                    <div class="boton-reserva">
+                        <a href="#reserva">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- Planes de socio -->
+    <div class="tipo-plan">
+        <div class="descripcion-plan">
+            <h2>Hazte socio y prueba nuestros beneficios</h2>
+        </div>
+        <div class="planes">
+            <div class="plan">
+                <div class="img-plan">
+                    <img src="images/gold.png" alt="Plan Gold">
+                </div>
+                <div class="nombre-plan">
+                    <h2>Gold</h2>
+                </div>
+                <!-- Botón ver condiciones -->
+                <div class="boton-condiciones">
+                    <a href="#vercondiciones">Ver condiciones</a>
+                </div>
+                <div class="beneficios">
+                    <ul>
+                        <li>Gimnasio</li>
+                        <li>Piscina</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="img-plan">
+                    <img src="images/premium.png" alt="Plan Premium">
+                </div>
+                <div class="nombre-plan">
+                    <h2>Premium</h2>
+                </div>
+                <!-- Botón ver condiciones -->
+                <div class="boton-condiciones">
+                    <a href="#vercondiciones">Ver condiciones</a>
+                </div>
+                <div class="beneficios">
+                    <ul>
+                        <li>Gimnasio</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="img-plan">
+                    <img src="images/plate.png" alt="Plan Gold">
+                </div>
+                <div class="nombre-plan">
+                    <h2>Plate</h2>
+                </div>
+                <!-- Botón ver condiciones -->
+                <div class="boton-condiciones">
+                    <a href="#vercondiciones">Ver condiciones</a>
+                </div>
+                <div class="beneficios">
+                    <ul>
+                        <li>Tratamientos faciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <ul>
+            <li><a href="#politicasdecookies">Políticas de cookies</a></li>
+            <li><a href="#avisolegal">Aviso legal</a></li>
+            <li><a href="#protecciondedatos">Protección de datos</a></li>
+            <li><a href="#mapadelsitio">Mapa del sitio</a></li>
+        </ul>
+        <div class="redes">
+            <span>Síguenos en</span>
+            <img src="images/rs_facebook.png" alt="facebook">
+            <img src="images/rs_twiter.png" alt="twitter">
+            <img src="images/rs_youtube.png" alt="youtube">
+        </div>
+    </footer>
+</body>
+</html>
