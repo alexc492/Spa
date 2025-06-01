@@ -26,13 +26,13 @@ nav ul a{
 }
 nav ul li{
     display: inline;
-    padding-right: 30px;
+    padding: 15px;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;    
 }
-nav ul li a:hover{
-    color: #FFFF00;
+nav ul li:hover{
+    backgroundcolor: #FFFF00;
 }
 
 nav .derecha{
@@ -280,10 +280,6 @@ nav .flecha{
 .footer ul a{
     text-decoration: none;
     color: #A3A656;
-}
-
-.footer ul a:hover{
-    color: #FFFF00;
 }
 .footer ul li{
     display: inline;
